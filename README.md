@@ -82,13 +82,13 @@ export default defineConfig({
 
 ### `template`
 
-#### Type: `string`
+Type: `string`
 
-#### Optional: `false`
+Optional: `false`
 
-#### Description: `an HTML template`
+Description: `an HTML template`
 
-#### Example:
+Example:
 
 ```js
 // a path
@@ -112,13 +112,13 @@ template: `
 
 ### `title`
 
-#### Type: `string`
+Type: `string`
 
-#### Optional: `true`
+Optional: `true`
 
-#### Description: `title tag in an HTML template`
+Description: `title tag in an HTML template`
 
-#### Example:
+Example:
 
 ```js
 // <title>rollup-plugin-create-html</title>
@@ -127,15 +127,15 @@ title: 'rollup-plugin-create-html',
 
 ### `prefix`
 
-#### Type: `string`
+Type: `string`
 
-#### Optional: `true`
+Optional: `true`
 
-#### Default: `'/'`
+Default: `'/'`
 
-#### Description: `the prefix of all injected stylesheets and scripts`
+Description: `the prefix of all injected stylesheets and scripts`
 
-#### Example:
+Example:
 
 ```js
 // '/index.js' -> './index.js'
@@ -144,13 +144,13 @@ prefix: './',
 
 ### `meta`
 
-#### Type: `MetaAttributes | MetaAttributes[]`
+Type: `MetaAttributes | MetaAttributes[]`
 
-#### Optional: `true`
+Optional: `true`
 
-#### Description: `meta tag in an HTML template`
+Description: `meta tag in an HTML template`
 
-#### Example:
+Example:
 
 ```js
 // <meta name="description" content="rollup-plugin-create-html">
@@ -172,15 +172,15 @@ meta: [
 
 ### `inject`
 
-#### Type: `boolean | Record<string, boolean | LinkAttributes | ScriptAttributes>`
+Type: `boolean | Record<string, boolean | LinkAttributes | ScriptAttributes>`
 
-#### Optional: `true`
+Optional: `true`
 
-#### Default: `true`
+Default: `true`
 
-#### Description: `whether to inject all stylesheets and scripts or not`
+Description: `whether to inject all stylesheets and scripts or not`
 
-#### Example:
+Example:
 
 ```js
 // not to be injected
@@ -207,13 +207,13 @@ inject: {
 
 ### `script`
 
-#### Type: `ScriptAttributes | ScriptAttributes[]`
+Type: `ScriptAttributes | ScriptAttributes[]`
 
-#### Optional: `true`
+Optional: `true`
 
-#### Description: `script tag in an HTML template`
+Description: `script tag in an HTML template`
 
-#### Example:
+Example:
 
 ```js
 // <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -233,13 +233,13 @@ script: [
 
 ### `link`
 
-#### Type: `LinkAttributes | LinkAttributes[]`
+Type: `LinkAttributes | LinkAttributes[]`
 
-#### Optional: `true`
+Optional: `true`
 
-#### Description: `link tag in an HTML template`
+Description: `link tag in an HTML template`
 
-#### Example:
+Example:
 
 ```js
 // <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"></link>
@@ -267,13 +267,13 @@ link: [
 
 ### `fileName`
 
-#### Type: `string`
+Type: `string`
 
-#### Optional: `true`
+Optional: `true`
 
-#### Description: `fileName of the output html`
+Description: `fileName of the output html`
 
-#### Example:
+Example:
 
 ```js
 fileName: 'index.html',
