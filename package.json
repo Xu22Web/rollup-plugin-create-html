@@ -49,5 +49,10 @@
   },
   "peerDependencies": {
     "rollup": ">=3.0"
-  }
+  },
+  "licenses": [
+    {
+      "license": "MIT"
+    }
+  ]
 }
