@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-create-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates HTML files to serve Rollup bundles and assets",
   "type": "module",
   "types": "./dist/src/index.d.ts",
