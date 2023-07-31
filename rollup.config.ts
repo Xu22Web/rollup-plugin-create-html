@@ -1,9 +1,8 @@
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
-import { defineConfig } from "rollup";
-import typescript from 'rollup-plugin-typescript2';
 import terser from '@rollup/plugin-terser';
-import json from '@rollup/plugin-json';
+import { defineConfig } from 'rollup';
+import typescript from 'rollup-plugin-typescript2';
 
 export default defineConfig({
   input: './src/index.ts',
@@ -17,5 +16,5 @@ export default defineConfig({
       format: 'es',
     },
   ],
-  plugins: [typescript(), commonjs(), resolve(), json(), terser()],
+  plugins: [typescript(), commonjs(), resolve(), terser()],
 });

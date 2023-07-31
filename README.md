@@ -64,7 +64,7 @@ export default defineConfig({
           href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css',
           rel: 'stylesheet',
         },
-        // <link href="./icon.png" rel="icon">
+        // './src/images/icon.png' -> './icon.png' <link href="./icon.png" rel="icon">
         {
           href: './src/images/icon.png',
           rel: 'icon',
@@ -190,13 +190,13 @@ inject: false,
 ```js
 inject: {
 // <head>
-//   <script src="index.js" type="module" defer></script>
+//   <script src="/index.js" type="module" defer></script>
 // <head>
 'index.js': {
   defer: true,
   location: 'head',
 },
-// <link href="index.css" rel="stylesheet" media="screen and (max-width: 600px)">
+// <link href="/index.css" rel="stylesheet" media="screen and (max-width: 600px)">
 'index.css': {
   media: 'screen and (max-width: 600px)',
 },
@@ -256,7 +256,7 @@ link: [
   href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css',
   rel: 'stylesheet',
 },
-// './src/images/icon.png' -> /icon.png"
+// './src/images/icon.png' -> '/icon.png'
 // <link href="/icon.png" rel="icon">
 {
   href: './src/images/icon.png',

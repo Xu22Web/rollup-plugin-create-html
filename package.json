@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-create-html",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Creates HTML files to serve Rollup bundles and assets",
   "type": "module",
   "types": "./dist/src/index.d.ts",
@@ -29,11 +29,10 @@
     "vitest",
     "assets"
   ],
-  "author": "",
+  "author": "xu22web",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.3",
-    "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-terser": "^0.4.3",
     "@types/node": "^20.4.5",
